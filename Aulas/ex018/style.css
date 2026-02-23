@@ -1,0 +1,44 @@
+/* Só posso usar um nome de id uma única vez por arquivo HTML. */
+/* Use class para formatar diversas tags de uma vez. Mas, no nome, coloque de acordo com a função que executa. */
+/* É possível usar 2 ou mais classes de uma vez ao mesmo tempo. Basta digitar o nome da classe, espaço e outro nome da classe. */
+/* É possível usar id e class na mesma tag. O id sempre prevalece quando confrontado com a class. */
+
+@charset "UTF-8";
+
+body {
+    background-color: rgb(44, 226, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(31, 145, 107);
+}
+
+/* Posso identificar o id com #nome da id ou tag#nome da id */
+h1#principal {
+    text-align: center;
+    background-color: rgb(12, 94, 62);
+    color: white;
+   
+}
+
+h2 {
+    color: rgb(22, 83, 63);
+}
+
+/* Para identificar as classes, uso .nome da classe*/
+.basico {
+    color: white;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: rgba(124, 124, 34, 0.5);
+}
