@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando iframe com arquivos diferentes na mesma página</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Iframe </h1>
+    <h1>Teste de página com iframe</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione alias facilis enim aut vero vel dolorum modi qui molestiae omnis atque, iste doloremque numquam tempore odio nihil suscipit nisi dolore!</p>
+    <a href="paginas/pag1.html" target="frame">Acesso a página 1</a>
+    <br>
+    <a href="paginas/pag2.html" target="frame">Acesso a página 2</a>
+    <br>
+    <a href="paginas/pag3.html" target="frame">Acesso a página 3</a>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione alias facilis enim aut vero vel dolorum modi qui molestiae omnis atque, iste doloremque numquam tempore odio nihil suscipit nisi dolore!</p>
+
+    <iframe name="frame" src="" frameborder="1">Navegador incompatível.</iframe>
+</body>
+</html>
